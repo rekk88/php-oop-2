@@ -16,9 +16,14 @@ class Shop{
 
 
 }
+include_once 'User.php';
 $shopOne = new Shop(12);
 
 echo $shopOne->nUtenti;
 var_dump($shopOne);
+
+$userOne = new User("cya","rakaro@gmail.com");
+
+var_dump($userOne);
 
 ?>
